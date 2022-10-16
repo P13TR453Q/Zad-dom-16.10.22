@@ -22,7 +22,27 @@
 # a, b, c, d, = int(input()), int(input()), int(input()), int(input())
 # lista = [a, b, c, d]
 # n = None
-# for i in lista:
+#
 #   if n == None or n > i:
 #     n = i
 #   print("Najmniejsza liczba to:",n)
+
+#Zad 5
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a < (b + c) and a > (b - c) and b < (a + c) and b > (a - c) and c < (a + b) and c > (a - b):
+#   print("yes")
+# else:
+#   print("no")
+#Zad 6
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if c < (a + b) and c ** 2 == ((a ** 2) + (b ** 2)):
+#    print("Trójkąt prostokątny")
+# elif c < (a + b) and c**2 > ((a ** 2) + (b ** 2)):
+#   print("Trójkąt rozwartokątny")
+# elif c < (a + b) and c ** 2 < ((a ** 2) + (b ** 2)):
+#    print("Trójkąt ostrokątny")
+# 
